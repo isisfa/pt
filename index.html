@@ -12,13 +12,25 @@
     <main>
         <header>
             <h1>Quem sou eu?</h1>
-            <img src="imagens/profile.png" alt="Imagem de Profile">
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens/profile-p.png" type="image/png">
+                <img src="imagens/profile.png" alt="Imagem de Profile">
+            </picture>
             <h2>Meu nome é <strong>Isis Figueiredo</strong>, sou Programadora full-stack, ex gerente de banco, com transição de carreira aos 30 anos. <br>
             Conheça minha linha de estudos e os meus projetos!</h2>
             <nav>
-            <a href="https://www.linkedin.com/in/isisfa/" target="_blank" rel="external" title="LinkedIn"><img src="imagens/icon-linkedin.png" alt="Link para o meu LinkedIn"></a>
-            <a href="https://github.com/isisfa" target="_blank" rel="external" title="Github"><img src="imagens/icon-github.png" alt="Link para o meu Github"></a>
-            <a href="mailto:isis.falves@gmail.com" target="_blank" rel="external" title="Gmail"><img src="imagens/icon-gmail.png" alt="Link para o meu Gmail"></a>
+            <a href="https://www.linkedin.com/in/isisfa/" target="_blank" rel="external" title="LinkedIn">
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens/icon-linkedin-p.png" type="image/png">
+                <img src="imagens/icon-linkedin.png" title="Link para o meu linkedIn" alt="Imagem flexível">
+            </picture>
+            </a>
+            <a href="https://github.com/isisfa" target="_blank" rel="external" title="Github">
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens/icon-github-p.png" type="image/png">
+                <img src="imagens/icon-github.png" title="Link para o meu github" alt="Imagem flexível">
+            </picture>
+            </a>
             </nav>
             <hr>
         </header>
@@ -26,20 +38,34 @@
         <article>
             <h3>Curso de HTML</h3>
             <a href="pag-html.html" rel="next">
-                <img src="imagens/logo-html-100.png" title="Curso de HTML" alt="Logo HTML5">
+                <picture>
+                    <source media="(max-width: 750px)" srcset="imagens/logo-html-50.png" type="image/png">
+                    <source media="(max-width: 1150px)" srcset="imagens/logo-html-100.png" type="image/png">
+                    <img src="imagens/logo-html-full.png" title="Curso de HTML" alt="Imagem flexível">
+                </picture>  
             </a>
         </article>
+        
         <article>
             <h3>Curso de CSS</h3>
             <a href="pag-css.html" rel="next">
-                <img src="imagens/logo-css-100.png" title="Curso de CSS" alt="LOGO CSS">
+                <picture>
+                    <source media="(max-width: 750px)" srcset="imagens/logo-css-50.png" type="image/png">
+                    <source media="(max-width: 1150px)" srcset="imagens/logo-css-100.png" type="image/png">
+                    <img src="imagens/logo-css-full.png" title="Curso de CSS" alt="Imagem flexível">
+                </picture>
             </a>
             
         </article>
         <article>
             <h3>Curso de Javascript</h3>
             <a href="pag-js.html" rel="next">
-                <img src="imagens/logo-javascript-100.png" title="Curso de Javascript" alt="Logo Javascript">
+                <picture>
+                    <source media="(max-width: 750px)" srcset="imagens/logo-js-50.png" type="image/png">
+                    <source media="(max-width: 1150px)" srcset="imagens/logo-js-100.png" type="image/png">
+                    <img src="imagens/logo-js-full.png" title="Curso de Javascript" alt="Imagem flexível">
+                </picture>
+
             </a>
         </article>
         </section>
