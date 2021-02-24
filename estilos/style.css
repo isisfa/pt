@@ -20,15 +20,28 @@ main {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.170);
 }
 
-#photo-profile{
+section {
+    
+}
+
+#photo-profile {
     text-align: right;
 }
 
 #text-profile {
-    text-align: left;
+    
 }
 
+#text-cursos {
+    
+}
+
+hr {
+    margin: 5%;
+    scroll-margin-bottom: 20px;
+}
 .cursos {
-    padding: 8%;
+    margin: 6%;
+    padding: 9px;
     display: inline-block;
 }
