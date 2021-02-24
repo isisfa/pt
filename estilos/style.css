@@ -12,7 +12,7 @@ body {
 }
 
 main {
-    background-image: linear-gradient(180deg, #f8afe6ef, #acacac);
+    background-image: linear-gradient(180deg, #acacac, #f8afe6ef);
     width: 80%;
     margin: auto;
     margin-top: 5%;
@@ -27,14 +27,14 @@ main {
 }
 
 #photo-profile {
-    margin: 5%;
+    margin: 3%;
     margin-bottom: 0%;
 }
 
 #text-profile {
     text-align: justify;
     margin: 5%;
-    margin-top: 8%;
+    margin-top: 6%;
     margin-bottom: 0%;
 }
 
