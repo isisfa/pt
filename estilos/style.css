@@ -15,7 +15,8 @@ main {
     background-image: linear-gradient(180deg, #f8afe6ef, #acacac);
     width: 80%;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     padding: 30px;
     border-radius: 25px;
     box-shadow: 12px 15px 15px #0000002b;
@@ -60,6 +61,7 @@ article {
 }
 
 .cursos {
+    margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
     padding: 10px;
