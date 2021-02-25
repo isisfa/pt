@@ -7,10 +7,10 @@
   color: #000000a1;
 }
 body {
-  background-image: linear-gradient(101.07deg, #130c0cd7 7.93%, #fd575793 93.3%);
+  background-image: linear-gradient(90deg, #130c0cd7 7.93%, #fd575793 93.3%);
 }
 main {
-  background-image: linear-gradient(95deg,#f8f4f4f3 7.93%, #ffffffa1 93.3%);
+  background-image: linear-gradient(90deg,#f8f4f4f3 7.93%, #ffffff71 93.3%);
   width: 80%;
   margin: auto;
   margin-top: 5%;
