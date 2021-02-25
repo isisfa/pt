@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,48 +9,46 @@
     <link rel="stylesheet" href="estilos/style.css">
     <script src="script.js"></script>
 </head>
+
 <body>
-    <main>
-        <header>
-            <div id="profile">          
-                <picture id="photo-profile">
-                    <source media="(max-width: 750px)" srcset="imagens/profile-p.png" type="image/png">
-                    <img src="imagens/profile.png" alt="Imagem de Profile">
+    <header>
+        <div id="header-profile">
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens/profile-p.png" type="image/png">
+                <img src="imagens/profile.png" alt="Imagem de Profile">
+            </picture>
+            <h2 id="h2-text-profile"> Isis Figueiredo </h2>
+            <p class="p-text-profile">Jr. Full-stack</p>
+            <p class="p-text-profile">Ex gerente de banco</p>
+            <p class="p-text-profile">Transição de carreira</p>
+        </div>
+        <div id="social-media">
+            <a href="https://www.linkedin.com/in/isisfa/" target="_blank" rel="external" title="Linkedin">
+                <picture>
+                    <source media="(max-width: 750px)" srcset="imagens/icon-linkedin-p.png" type="image/png">
+                    <img src="imagens/icon-linkedin.png" title="Linkedin" alt="Imagem flexível">
                 </picture>
-                <h1 id="text-profile">
-                    Quem sou eu? <br>
-                    Sou programadora Full-stack, Ex gerente de banco e Transição de carreira aos 30 anos. <br>
-                </h1>
-            </div>
-            <div id="social-media">          
-                <a href="https://www.linkedin.com/in/isisfa/" target="_blank" rel="external" title="Linkedin">
-                    <picture id="social-media">
-                        <source media="(max-width: 750px)" srcset="imagens/icon-linkedin-p.png" type="image/png">
-                        <img src="imagens/icon-linkedin.png" title="Linkedin" alt="Imagem flexível">
-                    </picture>
-                </a>              
-                <a href="https://www.github.com/isisfa/" target="_blank" rel="external" title="Github">
-                    <picture id="social-media">
-                        <source media="(max-width: 750px)" srcset="imagens/icon-github-p.png" type="image/png">
-                        <img src="imagens/icon-github.png" title="Github" alt="Imagem flexível">
-                    </picture>
-                </a>
-            </div> 
-            <hr> 
-        </header>
-        <section>
-            <h2>Os primeiros passos:</h2>
+            </a>
+            <a href="https://www.github.com/isisfa/" target="_blank" rel="external" title="Github">
+                <picture>
+                    <source media="(max-width: 750px)" srcset="imagens/icon-github-p.png" type="image/png">
+                    <img src="imagens/icon-github.png" title="Github" alt="Imagem flexível">
+                </picture>
+            </a>
+        </div>
+    </header>
+    <main>
+        <h3>Os primeiros passos:</h3>
         <article class="corses">
             <a href="pag-html.html" rel="next">
                 <picture>
                     <source media="(max-width: 750px)" srcset="imagens/logo-html-50.png" type="image/png">
                     <source media="(max-width: 1150px)" srcset="imagens/logo-html-100.png" type="image/png">
                     <img src="imagens/logo-html-full.png" title="Curso de HTML5" alt="Imagem flexível">
-                </picture>  
+                </picture>
             </a>
         </article>
-        
-        <article class= "corses">
+        <article class="corses">
             <a href="pag-css.html" rel="next">
                 <picture>
                     <source media="(max-width: 750px)" srcset="imagens/logo-css-50.png" type="image/png">
@@ -57,9 +56,9 @@
                     <img src="imagens/logo-css-full.png" title="Curso de CSS3" alt="Imagem flexível">
                 </picture>
             </a>
-            
+
         </article>
-        <article class= "corses">
+        <article class="corses">
             <a href="pag-js.html" rel="next">
                 <picture>
                     <source media="(max-width: 750px)" srcset="imagens/logo-js-50.png" type="image/png">
@@ -68,8 +67,8 @@
                 </picture>
             </a>
         </article>
-        <h2>Complementando e criando bases:</h2>
-        <article class= "corses">
+        <h3>Complementando e criando bases:</h3>
+        <article class="corses">
             <a href="pag-complement.html" rel="next">
                 <picture>
                     <source media="(max-width: 750px)" srcset="imagens/logo-linkedinLearning-50.png" type="image/png">
@@ -78,11 +77,11 @@
                 </picture>
             </a>
         </article>
-        <h2>Próximos passos:</h2>
-        </section>
-        <footer>
-            <p>2021&copy Isis Figueiredo </p>   
-        </footer>
+        <h3>Próximos passos:</h3>
     </main>
+    <footer>
+        <p id="text-footer">2021&copy Isis Figueiredo </p>
+    </footer>
 </body>
+
 </html>
