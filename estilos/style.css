@@ -7,12 +7,12 @@
 }
 
 body {
-    background-image: linear-gradient(90deg, #161616ea, #acacac);
+    background-image: linear-gradient(95deg, #4f6d7ad8, #acacace5);
     font-size: 16px;
 }
 
 main {
-    background-image: linear-gradient(180deg, #acacac, #f8afe6ef);
+    background-image: linear-gradient(180deg, #ffffffaf, #cc7e85);
     width: 80%;
     margin: auto;
     margin-top: 5%;
@@ -40,18 +40,22 @@ main {
 
 #redes-sociais {
     display:flex;
-    margin-left: 8%;
+    margin-left: 6%;
     margin-top: 0%;
 
 }
 
 hr {
-    margin-bottom: 15%;
+    margin-bottom: 5%;
+}
+
+h1 {
+    margin-left: auto;
 }
 
 h2 {
     font-size: 18px;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 article {
@@ -66,4 +70,11 @@ article {
     margin-right: 5%;
     padding: 10px;
     display: inline-block;
+}
+
+.header-pags-next {
+    display:flex;
+    margin-top: 0%; 
+    margin-left: 8%;
+    margin-right: 8%;
 }
